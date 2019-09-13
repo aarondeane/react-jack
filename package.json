@@ -1,0 +1,40 @@
+{
+  "name": "react-jack",
+  "version": "1.0.0",
+  "description": "Simple blackjack game built using React",
+  "main": "index.js",
+  "scripts": {
+    "react-dev": "webpack -d --watch",
+    "server-dev": "nodemon data/server.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aarondeane/react-jack.git"
+  },
+  "author": "Aaron Deane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aarondeane/react-jack/issues"
+  },
+  "homepage": "https://github.com/aarondeane/react-jack#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.4.2",
+    "@material-ui/icons": "^4.4.1",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "webpack": "^4.40.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "webpack-cli": "^3.3.8"
+  }
+}
